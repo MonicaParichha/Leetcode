@@ -13,9 +13,9 @@ class Solution {
         }
         for(int i=j+1;i<n;i++){
             if(nums[i]!=0){
-                int temp=nums[i];
-                nums[i]=nums[j];
-                nums[j]=temp;
+                nums[j]=nums[i];
+                nums[i]=0;
+                j++;
             }
         }
     }
