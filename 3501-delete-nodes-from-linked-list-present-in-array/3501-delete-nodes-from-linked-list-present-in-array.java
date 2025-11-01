@@ -29,10 +29,4 @@ class Solution {
         }
         return head;
     }
-    public boolean hasElement(int[] arr, int x){
-        for(int a: arr){
-            if(a==x) return true;
-        }
-        return false;
-    }
 }
