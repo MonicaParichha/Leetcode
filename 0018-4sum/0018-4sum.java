@@ -1,13 +1,5 @@
 class Solution {
-    static {
-        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            try (FileWriter writer = new FileWriter("display_runtime.txt")) {
-                writer.write("0");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }));
-    }
+   
     public List<List<Integer>> fourSum(int[] arr, int target) {
         List<List<Integer>> ans=new ArrayList<>();
         int n=arr.length;
