@@ -1,6 +1,8 @@
 class Solution {
     public void merge(int[] arr1, int n, int[] arr2, int m) {
         int len=m+n;
+
+        // Gap method - Shell Sort
         int gap=(len/2) + (len%2);
         
         while(gap>0){
