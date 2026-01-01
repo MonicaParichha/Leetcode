@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/MonicaParichha/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/MonicaParichha/Leetcode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/MonicaParichha/Leetcode/tree/master/0485-max-consecutive-ones) |
+| [0493-reverse-pairs](https://github.com/MonicaParichha/Leetcode/tree/master/0493-reverse-pairs) |
 | [0560-subarray-sum-equals-k](https://github.com/MonicaParichha/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/MonicaParichha/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/MonicaParichha/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/MonicaParichha/Leetcode/tree/master/0268-missing-number) |
+| [0493-reverse-pairs](https://github.com/MonicaParichha/Leetcode/tree/master/0493-reverse-pairs) |
 | [3790-fruits-into-baskets-ii](https://github.com/MonicaParichha/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 ## Bit Manipulation
 |  |
@@ -89,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Segment Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/MonicaParichha/Leetcode/tree/master/0493-reverse-pairs) |
 | [3790-fruits-into-baskets-ii](https://github.com/MonicaParichha/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 ## Simulation
 |  |
@@ -98,12 +101,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/MonicaParichha/Leetcode/tree/master/0493-reverse-pairs) |
 | [3790-fruits-into-baskets-ii](https://github.com/MonicaParichha/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/MonicaParichha/Leetcode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/MonicaParichha/Leetcode/tree/master/0169-majority-element) |
+| [0493-reverse-pairs](https://github.com/MonicaParichha/Leetcode/tree/master/0493-reverse-pairs) |
 ## Counting
 |  |
 | ------- |
@@ -132,4 +137,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/MonicaParichha/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/MonicaParichha/Leetcode/tree/master/0493-reverse-pairs) |
+## Merge Sort
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/MonicaParichha/Leetcode/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
