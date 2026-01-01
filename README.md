@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/MonicaParichha/Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/MonicaParichha/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/MonicaParichha/Leetcode/tree/master/0056-merge-intervals) |
+| [0066-plus-one](https://github.com/MonicaParichha/Leetcode/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/MonicaParichha/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/MonicaParichha/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/MonicaParichha/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/MonicaParichha/Leetcode/tree/master/0048-rotate-image) |
+| [0066-plus-one](https://github.com/MonicaParichha/Leetcode/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/MonicaParichha/Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/MonicaParichha/Leetcode/tree/master/0268-missing-number) |
 ## Binary Search
