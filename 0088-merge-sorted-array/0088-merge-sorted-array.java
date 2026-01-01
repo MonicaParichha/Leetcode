@@ -1,20 +1,41 @@
 class Solution {
-    public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int i=m-1,j=0;
-        while(i>=0 && j<Math.min(m,n)){
-            if(nums1[i]>nums2[j]){
-                int temp=nums1[i];
-                nums1[i]=nums2[j];
-                nums2[j]=temp;
+    public void merge(int[] arr1, int n, int[] arr2, int m) {
+        int len=m+n;
+        int gap=(len/2) + (len%2);
+        
+        while(gap>0){
+            int left=0;
+            int right=left+gap;
+            while(right<len){
+                //arr1 and arr2
+                if(left<n && right>=n){
+                    swap(arr1, arr2, left, right-n);
+                }
+                //arr2 and arr2
+                else if(left>=n){
+                    swap(arr2, arr2, left-n, right-n);
+                }
+                //arr1 and arr1
+                else{
+                    swap(arr1, arr1, left, right);
+                }
+                left++;
+                right++;
             }
-            i--;
-            j++;
+            if(gap==1) break;
+            gap=(gap/2)+(gap%2);
         }
-       for(int k=0;k<n;k++){
-            nums1[m+k]=nums2[k];
+        for(int i=0;i<m;i++){
+            arr1[n+i]=arr2[i];
         }
-        Arrays.sort(nums1);
+    }
 
 
+    public void swap(int [] arr1, int[] arr2, int i, int j){
+        if(arr1[i]>arr2[j]){
+            int temp=arr1[i];
+            arr1[i]=arr2[j];
+            arr2[j]=temp;
+        }
     }
 }
