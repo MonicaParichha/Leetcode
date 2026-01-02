@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/MonicaParichha/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/MonicaParichha/Leetcode/tree/master/0493-reverse-pairs) |
 | [0560-subarray-sum-equals-k](https://github.com/MonicaParichha/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0704-binary-search](https://github.com/MonicaParichha/Leetcode/tree/master/0704-binary-search) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/MonicaParichha/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/MonicaParichha/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/MonicaParichha/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0268-missing-number](https://github.com/MonicaParichha/Leetcode/tree/master/0268-missing-number) |
 | [0493-reverse-pairs](https://github.com/MonicaParichha/Leetcode/tree/master/0493-reverse-pairs) |
+| [0704-binary-search](https://github.com/MonicaParichha/Leetcode/tree/master/0704-binary-search) |
 | [3790-fruits-into-baskets-ii](https://github.com/MonicaParichha/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 ## Bit Manipulation
 |  |
