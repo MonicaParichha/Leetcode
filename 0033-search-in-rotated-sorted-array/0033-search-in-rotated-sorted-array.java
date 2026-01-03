@@ -1,5 +1,7 @@
 class Solution {
     public int search(int[] nums, int target) {
+
+        //Always find the sorted half
         int n=nums.length;
         int l=0,r=n-1, ans=-1;
         while(l<=r){
