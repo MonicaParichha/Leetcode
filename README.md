@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/MonicaParichha/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/MonicaParichha/Leetcode/tree/master/0704-binary-search) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/MonicaParichha/Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
+| [1390-four-divisors](https://github.com/MonicaParichha/Leetcode/tree/master/1390-four-divisors) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/MonicaParichha/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/MonicaParichha/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/MonicaParichha/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/MonicaParichha/Leetcode/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/MonicaParichha/Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/MonicaParichha/Leetcode/tree/master/0268-missing-number) |
+| [1390-four-divisors](https://github.com/MonicaParichha/Leetcode/tree/master/1390-four-divisors) |
 ## Binary Search
 |  |
 | ------- |
