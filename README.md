@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/MonicaParichha/Leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/MonicaParichha/Leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/MonicaParichha/Leetcode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/MonicaParichha/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/MonicaParichha/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1901-find-a-peak-element-ii](https://github.com/MonicaParichha/Leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [1975-maximum-matrix-sum](https://github.com/MonicaParichha/Leetcode/tree/master/1975-maximum-matrix-sum) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/MonicaParichha/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/MonicaParichha/Leetcode/tree/master/0283-move-zeroes) |
 | [0876-middle-of-the-linked-list](https://github.com/MonicaParichha/Leetcode/tree/master/0876-middle-of-the-linked-list) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/MonicaParichha/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/MonicaParichha/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/MonicaParichha/Leetcode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Hash Table
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/MonicaParichha/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/MonicaParichha/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1903-largest-odd-number-in-string](https://github.com/MonicaParichha/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [1975-maximum-matrix-sum](https://github.com/MonicaParichha/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/MonicaParichha/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -152,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/MonicaParichha/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/MonicaParichha/Leetcode/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/MonicaParichha/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/MonicaParichha/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 ## Segment Tree
 |  |
 | ------- |
