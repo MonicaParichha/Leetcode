@@ -1,46 +1,36 @@
 class Solution {
-   
-    public List<List<Integer>> fourSum(int[] arr, int target) {
-        List<List<Integer>> ans=new ArrayList<>();
-        int n=arr.length;
-        Arrays.sort(arr);
+    public List<List<Integer>> fourSum(int[] nums, int target) {
+        List<List<Integer>> arr=new ArrayList<>();
+        int n=nums.length;
+        Arrays.sort(nums);
         for(int i=0;i<n;i++){
-            if(i>0 && arr[i]==arr[i-1]){
-                continue;
-            }
+            if(i>0 && nums[i]==nums[i-1]) continue;
             for(int j=i+1;j<n;j++){
-                if(j>i+1 && arr[j]==arr[j-1]){
-                    continue;
-                }
-                int k=j+1;
-                int l=n-1;
-                while(k<l){
-                    long sum=(long)arr[i]+arr[j]+arr[k]+arr[l];
-                    if(sum>target){
-                        l--;
-                    }else if(sum<target){
-                        k++;
-                    }
-                    else{
+                if(j>i+1 && nums[j]==nums[j-1]) continue; 
+                int left=j+1;
+                int right=n-1;
+                while(left<right){
+                    long sum=(long)nums[i]+(long)nums[j]+(long)nums[right]+(long)nums[left];
+                    if(sum==target){
                         List<Integer> temp=new ArrayList<>();
-                        temp.add(arr[i]);
-                        temp.add(arr[j]);
-                        temp.add(arr[k]);
-                        temp.add(arr[l]);
-                        ans.add(temp);
-                        k++;
-                        l--;
-                        while(k<l && arr[k]==arr[k-1]){
-                            k++;
-                        }
-                        while(k<l && arr[l]==arr[l+1]){
-                            l--;
-                        }
+                        temp.add(nums[i]);
+                        temp.add(nums[j]);
+                        temp.add(nums[left]);
+                        temp.add(nums[right]);
+
+                        arr.add(temp);
+                        left++;
+                        right--;
+
+                        while(left<right && nums[left]==nums[left-1]) left++;
+                        while(left<right && nums[right]==nums[right+1]) right--;
                     }
+                    else if(sum<target) left++;
+                    else right--;
+
                 }
             }
         }
-        return ans;
-        
+        return arr;
     }
 }
