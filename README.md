@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/MonicaParichha/Leetcode/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/MonicaParichha/Leetcode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/MonicaParichha/Leetcode/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/MonicaParichha/Leetcode/tree/master/0066-plus-one) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/MonicaParichha/Leetcode/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/MonicaParichha/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/MonicaParichha/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/MonicaParichha/Leetcode/tree/master/0876-middle-of-the-linked-list) |
@@ -275,5 +277,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/MonicaParichha/Leetcode/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/MonicaParichha/Leetcode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
