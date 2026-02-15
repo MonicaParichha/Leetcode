@@ -1,32 +1,28 @@
 class Solution {
     public int myAtoi(String s) {
         long ans=0;
-        int sign=1;
         s=s.trim();
-
         int n=s.length();
-        
-        if(n==0) return 0;
+        int isNegative=1;
+        for(int i=0;i<n;i++){
+            if(s.charAt(i)=='-' && i==0){
+                isNegative=-1;
+            }
+            else if(i==0 && s.charAt(i)=='+') isNegative=1;
+            else if(s.charAt(i)-'0'>=0 && s.charAt(i)-'0'<=9){
+                ans=ans*10;
+                ans+=(s.charAt(i)-'0');
 
-        if(s.charAt(0)=='-') sign=-1;
-
-        int i=(s.charAt(0)=='-' || s.charAt(0)=='+')?1:0;
-        
-        while(i<n && Character.isDigit(s.charAt(i))){
-            
-            char ch=s.charAt(i);
-            ans=ans*10+(ch-'0');  
-
-            if(sign*ans>Integer.MAX_VALUE) return Integer.MAX_VALUE;
-            if(sign*ans<Integer.MIN_VALUE) return Integer.MIN_VALUE; 
-
-              
-            i++; 
+                if(ans*isNegative>Integer.MAX_VALUE) return Integer.MAX_VALUE;
+                if(ans*isNegative<Integer.MIN_VALUE) return Integer.MIN_VALUE;    
+                
+            }else{
+                break;
+            }
         }
+
         
 
-        return (int)ans*sign;
-
+        return (int)ans*isNegative;
     }
-
 }
