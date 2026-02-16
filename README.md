@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/MonicaParichha/Leetcode/tree/master/0268-missing-number) |
 | [1390-four-divisors](https://github.com/MonicaParichha/Leetcode/tree/master/1390-four-divisors) |
 | [1903-largest-odd-number-in-string](https://github.com/MonicaParichha/Leetcode/tree/master/1903-largest-odd-number-in-string) |
+| [1922-count-good-numbers](https://github.com/MonicaParichha/Leetcode/tree/master/1922-count-good-numbers) |
 ## Binary Search
 |  |
 | ------- |
@@ -314,4 +315,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/MonicaParichha/Leetcode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/MonicaParichha/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/MonicaParichha/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [1922-count-good-numbers](https://github.com/MonicaParichha/Leetcode/tree/master/1922-count-good-numbers) |
 <!---LeetCode Topics End-->
