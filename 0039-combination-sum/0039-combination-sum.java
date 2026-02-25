@@ -1,21 +1,24 @@
 class Solution {
-    List<List<Integer>> ans=new ArrayList<>();
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        int n=candidates.length;
+        List<List<Integer>> ans=new ArrayList<>();
         List<Integer> arr=new ArrayList<>();
-        combine(0,arr,candidates,candidates.length,target);
+        combine(0,arr,ans,candidates,target,n);
         return ans;
     }
-    public void combine(int index, List<Integer> arr, int[] candidates,int n, int target){
-        if(target==0){
-            ans.add(new ArrayList<>(arr));
+    public void combine(int ind,List<Integer> arr, List<List<Integer>> ans,int[] candidates, int target, int n){
+        if(ind==n){
+            if(target==0){
+                List<Integer> temp=new ArrayList<>(arr);
+                ans.add(temp);
+            }
             return;
-        } 
-        if(index==n) return;
-        if(target<0) return;
-
-        arr.add(candidates[index]);
-        combine(index,arr,candidates,n,target-candidates[index]);
-        arr.remove(arr.size()-1);
-        combine(index+1,arr,candidates,n,target);
+        }
+        if(candidates[ind]<=target){
+            arr.add(candidates[ind]);
+            combine(ind,arr,ans,candidates,target-candidates[ind],n);
+            arr.remove(arr.size()-1);
+        }
+        combine(ind+1,arr,ans,candidates,target,n);
     }
 }
