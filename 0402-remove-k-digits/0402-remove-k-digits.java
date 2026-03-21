@@ -19,15 +19,16 @@ class Solution {
         }
         if(arr.isEmpty()) return "0";
         
-        String ans="";
+        StringBuilder ans=new StringBuilder();
         for(int i=0;i<arr.size();i++){
-            if(arr.get(i)=='0' && ans.equals("")){
-
+            if(arr.get(i)=='0' && ans.isEmpty()){
+                continue;
             }
             else{
-                ans+=arr.get(i);
+                ans.append(arr.get(i));
             }
         }
-        return ans.equals("")?"0":ans;
+        String str=ans.toString();
+        return str.equals("")?"0":str;
     }
 }
