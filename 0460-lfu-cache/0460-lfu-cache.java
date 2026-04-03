@@ -1,44 +1,3 @@
-
-class Node{
-    int key;
-    int value;
-    int cnt;
-    Node next;
-    Node prev;
-    Node(int key_, int val_){
-        key=key_;
-        value=val_;
-        cnt=1;
-    }
-}
-class DList{
-    int size;
-    Node head;
-    Node tail;
-    DList(){
-        size=0;
-        head=new Node(0,0);
-        tail=new Node(0,0);
-        head.next=tail;
-        tail.prev=head;
-    }
-    void addFront(Node node){
-        Node temp = head.next;
-        node.next = temp;
-        node.prev = head;
-        head.next = node;
-        temp.prev = node;
-        size++;
-    }
-    void removeNode(Node delnode) {
-        Node prevNode = delnode.prev;
-        Node nextNode = delnode.next;
-        prevNode.next = nextNode;
-        nextNode.prev = prevNode;
-        size--;
-    }
-}
-
 class LFUCache {
     private Map<Integer, Node> keyNode; 
     private Map<Integer, DList> freqListMap;
@@ -112,6 +71,48 @@ class LFUCache {
         }
     }
 }
+
+class Node{
+    int key;
+    int value;
+    int cnt;
+    Node next;
+    Node prev;
+    Node(int key_, int val_){
+        key=key_;
+        value=val_;
+        cnt=1;
+    }
+}
+class DList{
+    int size;
+    Node head;
+    Node tail;
+    DList(){
+        size=0;
+        head=new Node(0,0);
+        tail=new Node(0,0);
+        head.next=tail;
+        tail.prev=head;
+    }
+    void addFront(Node node){
+        Node temp = head.next;
+        node.next = temp;
+        node.prev = head;
+        head.next = node;
+        temp.prev = node;
+        size++;
+    }
+    void removeNode(Node delnode) {
+        Node prevNode = delnode.prev;
+        Node nextNode = delnode.next;
+        prevNode.next = nextNode;
+        nextNode.prev = prevNode;
+        size--;
+    }
+}
+
+
 
 /**
  * Your LFUCache object will be instantiated and called as such:
