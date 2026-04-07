@@ -1,28 +1,20 @@
 class Solution {
     public int longestOnes(int[] nums, int k) {
-        Queue<Integer> q=new LinkedList<>();
-        int l=0,r=0,n=nums.length,maxLen=0;
+        int n=nums.length;
+        int l=0,r=0,zeroes=0,maxLen=0;
         while(r<n){
             if(nums[r]==0){
-                q.add(r);
+                zeroes++;
             }
-            if(q.size()>k) {
-                l=q.poll()+1;
+            if(zeroes>k){
+                if(nums[l]==0){
+                    zeroes--;
+                }
+                l++;
             }
             maxLen=Math.max(maxLen,r-l+1);
             r++;
         }
         return maxLen;
-    }
-    static {
-        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            try (FileWriter writer = new FileWriter("display_runtime.txt"))
-            {
-                writer.write("0");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            }
-        ));
     }
 }
