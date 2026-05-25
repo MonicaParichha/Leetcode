@@ -1,38 +1,40 @@
 class Solution {
     public int myAtoi(String s) {
-        s=s.trim();
-        if(s.length()==0) return 0;
-        int index=0;
-        int sign=1;
-        if(s.charAt(0)=='+' || s.charAt(0)=='-'){
-            index++;
-            if(s.charAt(0)=='-') sign=-1;
-        }
         long ans=0;
-        ans=helper(sign,s,index, ans);
-        return (int)ans;
+        int signNeg=1;
+        s=s.trim();
+
+        if(s.length()>0){
+            if(s.charAt(0)=='-'){
+                signNeg=-1;
+                if(s.length()>1) s=s.substring(1);
+            } 
+            else if(s.charAt(0)=='+'){
+                signNeg=1;
+                if(s.length()>1) s=s.substring(1);
+            }
+        }
+        ans=helper(s,ans,signNeg);
+       
+        return (int)ans * signNeg;
     }
-    public long helper(int sign, String s,int index, long ans){
+    public long helper(String s, long ans, int n){
+        if(s.isEmpty()){
+            return ans;
+        }
+        char ch=s.charAt(0);
+
+        if(!Character.isDigit(ch)){
+            return ans;
+        } 
         
-        if(index>=s.length() || !Character.isDigit(s.charAt(index))) return ans*sign;
+        ans=(long)ans*10+ (ch-'0');
 
-        long newAns= (long)((ans*10)+(s.charAt(index)-'0'));
+        if(ans*n<Integer.MIN_VALUE) return Integer.MIN_VALUE;
+        if(ans*n>Integer.MAX_VALUE) return Integer.MAX_VALUE;
 
-        if(newAns*sign>Integer.MAX_VALUE) return Integer.MAX_VALUE;
-        if(newAns*sign<Integer.MIN_VALUE) return Integer.MIN_VALUE;
         
 
-        return helper(sign,s,index+1,newAns);
-    } 
-    static {
-        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            try (FileWriter writer = new FileWriter("display_runtime.txt"))
-            {
-                writer.write("0");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            }
-        ));
+        return helper(s.substring(1),ans,n);
     }
 }
