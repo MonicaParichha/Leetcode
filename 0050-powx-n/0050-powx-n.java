@@ -1,18 +1,21 @@
 class Solution {
     public double myPow(double x, int n) {
-        double ans=1;
+        
+        boolean isNeg=(n<0)?true:false;
         long N=n;
-        boolean positive= N>0?true:false;
         N=Math.abs(N);
-        while(N>0){
-            if(N%2!=0){
-                ans=ans*x;
-            }
-            x=x*x;
-            N=N/2;
-        }
-        if(!positive) ans=1.0/ans;
+        double ans= power(1.0,x,N);
 
-        return ans;
+        return isNeg==true? 1.0/ans: ans;
+        
+    }
+    public double power(double ans, double x, long n){
+        if(n<=0){
+            return ans;
+        }
+        if(n%2!=0) ans=ans*x;
+        x=x*x;
+        return power(ans,x,n/2);
+
     }
 }
