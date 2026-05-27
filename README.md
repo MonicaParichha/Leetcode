@@ -144,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/MonicaParichha/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/MonicaParichha/Leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/MonicaParichha/Leetcode/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/MonicaParichha/Leetcode/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/MonicaParichha/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/MonicaParichha/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Greedy
@@ -355,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/MonicaParichha/Leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1903-largest-odd-number-in-string](https://github.com/MonicaParichha/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/MonicaParichha/Leetcode/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/MonicaParichha/Leetcode/tree/master/3121-count-the-number-of-special-characters-ii) |
 ## Stack
 |  |
 | ------- |
