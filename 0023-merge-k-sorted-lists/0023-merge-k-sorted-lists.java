@@ -10,52 +10,47 @@
  */
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-        if(lists.length==0) return null;
-        if(lists.length==1) return lists[0];
-        PriorityQueue<Pair> pq=new PriorityQueue<>((a, b) -> a.val - b.val);
-        ListNode dummy=new ListNode(-1);
-        ListNode temp=dummy;
         int n=lists.length;
+        
+        PriorityQueue<Pair> pq = new PriorityQueue<>((a,b)->Integer.compare(a.val, b.val));
+
         for(int i=0;i<n;i++){
-            if(lists[i]!=null) pq.add(new Pair(lists[i],lists[i].val));
+            if(lists[i]!=null){
+                ListNode node= lists[i];
+                int val=lists[i].val;
+                pq.add(new Pair(node,val));
+            }
+
+            
         }
+
+        ListNode head=new ListNode();
+        ListNode l=head;
+
         while(!pq.isEmpty()){
-            Pair pair=pq.poll();
-            temp.next=pair.node;
-            if(pair.node.next!=null) pq.add(new Pair(pair.node.next,pair.node.next.val));
-            temp=temp.next;
+            Pair p=pq.poll();
+            l.next=p.first();
+            l=l.next;
+            if(p.first().next!=null){
+                pq.add(new Pair(p.first().next, p.first().next.val));
+            }
         }
-        return dummy.next;
+
+        return head.next;
     }
-    static {
-        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            try (FileWriter writer = new FileWriter("display_runtime.txt"))
-            {
-                writer.write("0");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            }
-        ));
-    }
+
 }
 class Pair{
     ListNode node;
     int val;
-
     Pair(ListNode node, int val){
         this.node=node;
         this.val=val;
     }
-    static {
-        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            try (FileWriter writer = new FileWriter("display_runtime.txt"))
-            {
-                writer.write("0");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            }
-        ));
+    public ListNode first(){
+        return node;
+    }
+    public int second(){
+        return val;
     }
 }
