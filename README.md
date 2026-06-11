@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/MonicaParichha/Leetcode/tree/master/0621-task-scheduler) |
 | [0704-binary-search](https://github.com/MonicaParichha/Leetcode/tree/master/0704-binary-search) |
 | [0735-asteroid-collision](https://github.com/MonicaParichha/Leetcode/tree/master/0735-asteroid-collision) |
+| [0846-hand-of-straights](https://github.com/MonicaParichha/Leetcode/tree/master/0846-hand-of-straights) |
 | [0875-koko-eating-bananas](https://github.com/MonicaParichha/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/MonicaParichha/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [0907-sum-of-subarray-minimums](https://github.com/MonicaParichha/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/MonicaParichha/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/MonicaParichha/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/MonicaParichha/Leetcode/tree/master/0621-task-scheduler) |
+| [0846-hand-of-straights](https://github.com/MonicaParichha/Leetcode/tree/master/0846-hand-of-straights) |
 | [0904-fruit-into-baskets](https://github.com/MonicaParichha/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/MonicaParichha/Leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/MonicaParichha/Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
@@ -156,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/MonicaParichha/Leetcode/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/MonicaParichha/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0621-task-scheduler](https://github.com/MonicaParichha/Leetcode/tree/master/0621-task-scheduler) |
+| [0846-hand-of-straights](https://github.com/MonicaParichha/Leetcode/tree/master/0846-hand-of-straights) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/MonicaParichha/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1903-largest-odd-number-in-string](https://github.com/MonicaParichha/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [1975-maximum-matrix-sum](https://github.com/MonicaParichha/Leetcode/tree/master/1975-maximum-matrix-sum) |
@@ -229,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/MonicaParichha/Leetcode/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/MonicaParichha/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/MonicaParichha/Leetcode/tree/master/0621-task-scheduler) |
+| [0846-hand-of-straights](https://github.com/MonicaParichha/Leetcode/tree/master/0846-hand-of-straights) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/MonicaParichha/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 ## Segment Tree
 |  |
