@@ -1,6 +1,9 @@
 class Solution {
     public boolean isNStraightHand(int[] hand, int groupSize) {
         int n=hand.length;
+
+        if(n%groupSize!=0) return false;
+
         HashMap<Integer, Integer> map=new HashMap<>();
 
         for(int i=0;i<n;i++){
