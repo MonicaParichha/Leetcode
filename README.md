@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/MonicaParichha/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1903-largest-odd-number-in-string](https://github.com/MonicaParichha/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [1975-maximum-matrix-sum](https://github.com/MonicaParichha/Leetcode/tree/master/1975-maximum-matrix-sum) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/MonicaParichha/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/MonicaParichha/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Math
 |  |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1390-four-divisors](https://github.com/MonicaParichha/Leetcode/tree/master/1390-four-divisors) |
 | [1903-largest-odd-number-in-string](https://github.com/MonicaParichha/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [1922-count-good-numbers](https://github.com/MonicaParichha/Leetcode/tree/master/1922-count-good-numbers) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/MonicaParichha/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -376,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/MonicaParichha/Leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/MonicaParichha/Leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1903-largest-odd-number-in-string](https://github.com/MonicaParichha/Leetcode/tree/master/1903-largest-odd-number-in-string) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/MonicaParichha/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/MonicaParichha/Leetcode/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/MonicaParichha/Leetcode/tree/master/3121-count-the-number-of-special-characters-ii) |
 ## Stack
