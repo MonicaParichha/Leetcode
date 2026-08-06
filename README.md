@@ -538,4 +538,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/MonicaParichha/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/MonicaParichha/Leetcode/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/MonicaParichha/Leetcode/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
