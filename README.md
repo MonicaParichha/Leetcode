@@ -183,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/MonicaParichha/Leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/MonicaParichha/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/MonicaParichha/Leetcode/tree/master/0268-missing-number) |
+| [0836-rectangle-overlap](https://github.com/MonicaParichha/Leetcode/tree/master/0836-rectangle-overlap) |
 | [1248-count-number-of-nice-subarrays](https://github.com/MonicaParichha/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1390-four-divisors](https://github.com/MonicaParichha/Leetcode/tree/master/1390-four-divisors) |
 | [1903-largest-odd-number-in-string](https://github.com/MonicaParichha/Leetcode/tree/master/1903-largest-odd-number-in-string) |
@@ -559,4 +560,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/MonicaParichha/Leetcode/tree/master/0287-find-the-duplicate-number) |
+## Geometry
+|  |
+| ------- |
+| [0836-rectangle-overlap](https://github.com/MonicaParichha/Leetcode/tree/master/0836-rectangle-overlap) |
 <!---LeetCode Topics End-->
