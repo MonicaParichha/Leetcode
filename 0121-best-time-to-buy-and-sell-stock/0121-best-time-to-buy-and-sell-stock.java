@@ -4,7 +4,7 @@ class Solution {
         int min=prices[0];
         int ans=0;
         for(int i=0;i<n;i++){
-            min=Math.min(prices[i],min);
+            min=Math.min(min,prices[i]);
             ans=Math.max(ans,prices[i]-min);
         }
         return ans;
